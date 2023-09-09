@@ -1,14 +1,14 @@
-import { NextResponse } from "next/server";
-import prisma from "../../../lib/prisma.js";
+// import { NextResponse } from "next/server";
+// import prisma from "../../../lib/prisma.js";
 
-export const POST = async (req, {params}) =>{
+// export const POST = async (req, {params}) =>{
 
-    try{
+//     try{
 
-        const result = await prisma.todo.findmany()
-        console.log(result);
+//         const result = await prisma.todo.findmany()
+//         console.log(result);
 
-    }catch(err){
-        console.log(err);
-    }
-}
+//     }catch(err){
+//         console.log(err);
+//     }
+// }
